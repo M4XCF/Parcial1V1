@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>CARRITO COMPRAS</title>
+</head>
+ 
+<body>
+    <!--Inicia Encabezado-->
+    <div>
+        <header>
+            <div id="Logo"><img src="https://statist-threaders.000webhostapp.com/img/Parcial1/Logo.png" width="216" height="216"> </div>
+            <div id="Titulo"><h1>Panqueques el Chaneque</h1><h3>Ni pan-que quieres mas</h3><h5>La mejor seleccion de toppings para sus hotcakes</h5></div>
+            <style>
+                #Logo {margin: 0 0 0 80px; float: inline-start; display: inline-block;}
+                #Titulo {text-align: center; margin-right: 290px;}
+                h1 {padding-top: 30px;}
+                header {height: 216px; width: auto; background-color: #C6983A;}
+            </style>
+        </header>
+    </div>
+    <!--Termina Encabezado-->
+
+    <div class="container">
+        <h1 class="text-center">Ingredientes</h1>
+        <hr>
+        <div class="row" id="cards"></div>
+    </div>    
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Item</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Accion</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody id="items"></tbody>
+        <tfoot>
+            <tr id="footer">
+                <th scope="row" colspan="5">Agregue sabor. Un panqueque sabroso es un chaneque feliz.</th>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <template id="template-carrito">
+        <tr>
+
+            <th scope="row">ID</th>
+            <td>Cafe</td>
+            <td>1</td>
+            <td>
+                <button class="btn btn-info btn-sm">+</button>
+                <button class="btn btn-danger btn-sm">-</button>
+            </td>
+            <td>$<span>500</span></td>
+        </tr>
+    </template>
+ 
+    <template id="template-card">
+        <div class="col-12 col-md-4">
+            <div class="card">                
+                <img src="" class="card-img-top" alt="..." style="width:100px;height:100px;">
+                <div class="card-body">
+                  <h5 class="card-title">Cacahuates</h5>
+                  <h6 class="card-title">Gamesa</h6>
+                  <p class="card-text">$<span>30.00</span></p>
+                  <button class="btn btn-dark">Comprar</button>
+
+                </div>
+              </div>
+        </div>
+    </template>
+
+    <template id="template-footer">
+        <th scope="row" colspan="2">Total productos</th>
+        <td>10</td>
+        <td>
+            <button class="btn btn-danger btn-sm" id="vaciar-carrito">Vaciar Carrito</button>
+        </td>
+        <td class="font-weight-bold">$<span>5000</span></td>
+    </template>
+ 
+    <script src="app.js"></script>
+
+<!--Inicia Encabezado-->
+<div>
+    <footer>
+        <div id="Pie"><h1>Contactenos</h1><h4>Maximiliano Castaneda Florean - 217858</h4><h4>Correodeejemplo@outlook.com</h4></div>
+        <style>
+            #Pie {text-align: center; margin-right: 20px;}
+            h1 {padding-top: 30px;}
+            footer {height: 180px; width: auto; background-color: #B09D93;}
+        </style>
+    </footer>
+</div>
+<!--Termina Encabezado-->
+
+</body>
+</html>

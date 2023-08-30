@@ -1,0 +1,98 @@
+[
+    {
+        "precio": 50,
+        "id": 1,
+        "title": "Blueberry",
+        "marca": "Kirkland",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/1.jpg"
+        
+    },
+
+    {
+        "precio": 50,
+        "id": 2,
+        "title": "Chispas",
+        "marca": "Hersheys",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/2.jpg"
+    },
+
+    {
+        "precio": 40,
+        "id": 3,
+        "title": "Crema Batida",
+        "marca": "Alpura",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/3.png"
+    },
+
+    {
+        "precio": 45,
+        "id": 4,
+        "title": "Fresa",
+        "marca": "Driscolls",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/4.jpg"
+    },
+
+    {
+        "precio": 20,
+        "id": 5,
+        "title": "Helado",
+        "marca": "Holanda",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/5.jpg"
+    },
+
+    {
+        "precio": 40,
+        "id": 6,
+        "title": "Chocolate",
+        "marca": "Hersheys",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/6.png"
+    },
+
+    {
+        "precio": 30,
+        "id": 7,
+        "title": "Lechera",
+        "marca": "Nestle",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/7.png"
+    },
+
+    {
+        "precio": 8,
+        "id": 8,
+        "title": "Mantequilla de mani",
+        "marca": "Skippy",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/8.jpg"
+    },
+
+    {
+        "precio": 30,
+        "id": 9,
+        "title": "Maple",
+        "marca": "Log Cabin",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/9.jpg"
+    },
+
+    {
+        "precio": 40,
+        "id": 10,
+        "title": "Mermelada",
+        "marca": "Artesanal",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/10.png"
+    },
+
+    {
+        "precio": 30,
+        "id": 11,
+        "title": "Miel",
+        "marca": "Artesanal",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/11.png"
+    },
+
+    {
+        "precio": 30,
+        "id": 12,
+        "title": "Platano",
+        "marca": "Coliman",
+        "thumbnailUrl": "https://statist-threaders.000webhostapp.com/img/12.jpg"
+    }
+]
